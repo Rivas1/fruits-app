@@ -12,9 +12,26 @@ componentDidMount(){
   }
 render(){
     return(
+      <React.Fragment>
+      <div class="ui menu">
+        <div class="header item">
+          Our Company
+        </div>
+        <a class="item">
+          About Us
+        </a>
+        <a class="item">
+          Jobs
+        </a>
+        <a class="item active">
+          Locations
+        </a>
+      </div>
       <div>
         <AllFruits fruits={this.state.fruits} />
       </div>
+
+      </React.Fragment>
     )
   }
 }
