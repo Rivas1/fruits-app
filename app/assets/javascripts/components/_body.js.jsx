@@ -13,7 +13,7 @@ componentDidMount(){
 render(){
     return(
       <React.Fragment>
-      <div class="ui menu">
+      <div class="ui huge inverted compact menu">
         <div class="header item">
           Our Company
         </div>
